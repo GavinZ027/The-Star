@@ -1,4 +1,3 @@
-在Python中，你可以使用Turtle模块来画一只乌龟。Turtle是一个受Logo语言启发的图形库，它允许你创建图形。下面是一个简单的Python脚本，使用Turtle模块来画一只简单的乌龟形状：
 
 ```python
 import turtle
