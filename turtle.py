@@ -1,73 +1,34 @@
 import turtle
 
-# 创建画布和乌龟
-screen = turtle.Screen()
+# 创建一个乌龟对象
 t = turtle.Turtle()
 
-# 设置乌龟的画笔颜色
+# 设置乌龟的形状为"turtle"
+t.shape("turtle")
+
+# 设置乌龟的颜色为绿色
 t.color("green")
 
-# 乌龟的头
-t.penup()
-t.goto(-20, 0)
-t.pendown()
-t.circle(40)
+# 乌龟向前移动100个单位
+t.forward(100)
 
-# 乌龟的身体
-t.penup()
-t.goto(-70, 0)
-t.pendown()
-t.circle(100)
+# 乌龟向左转90度
+t.left(90)
 
-# 乌龟的腿
-t.penup()
-t.goto(-70, -50)
-t.pendown()
-t.right(90)
-t.forward(50)
-t.backward(50)
-t.right(90)
+# 乌龟向前移动100个单位
+t.forward(100)
 
-t.penup()
-t.goto(-70, 50)
-t.pendown()
-t.right(90)
-t.forward(50)
-t.backward(50)
-t.right(90)
+# 乌龟向左转90度
+t.left(90)
 
-t.penup()
-t.goto(-120, 0)
-t.pendown()
-t.right(90)
-t.forward(50)
-t.backward(50)
-t.right(90)
+# 乌龟向前移动100个单位
+t.forward(100)
 
-t.penup()
-t.goto(-170, 0)
-t.pendown()
-t.right(90)
-t.forward(50)
-t.backward(50)
-t.right(90)
+# 乌龟向左转90度
+t.left(90)
 
-# 乌龟的尾巴
-t.penup()
-t.goto(-220, 0)
-t.pendown()
-t.right(135)
-t.forward(30)
+# 乌龟向前移动100个单位
+t.forward(100)
 
-# 乌龟的尾巴
-t.penup()
-t.goto(-220, -30)
-t.pendown()
-t.right(45)
-t.forward(30)
-
-# 隐藏乌龟的尾巴
-t.hideturtle()
-
-# 结束
-screen.mainloop()
+# 结束绘制
+turtle.done()
