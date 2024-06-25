@@ -1,5 +1,3 @@
-
-```python
 import turtle
 
 # 创建画布和乌龟
@@ -73,4 +71,3 @@ t.hideturtle()
 
 # 结束
 screen.mainloop()
-```
